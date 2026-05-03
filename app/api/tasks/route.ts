@@ -9,6 +9,7 @@ import { getAuthUser } from '@/lib/auth'
 import { connectDB } from '@/lib/mongodb'
 import { ok, err } from '@/lib/api'
 import Task from '@/models/Task'
+import "@/models/User";
 
 // ─── GET /api/tasks ──────────────────────────────────────────────────────────
 
